@@ -9,6 +9,8 @@ import { cacheLife } from "next/cache";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 
+console.log("BASE_URL =", BASE_URL);
+
 const EventDetailItem = ({
   icon,
   alt,
